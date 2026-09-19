@@ -32,8 +32,7 @@ ALLOWED_HOSTS = [
     "localhost",
 ]
 
-# Ajouter automatiquement le domaine de production
-# avec la variable DJANGO_ALLOWED_HOSTS.
+# Ajouter les domaines personnalisés depuis les variables d'environnement
 extra_hosts = os.environ.get("DJANGO_ALLOWED_HOSTS", "")
 
 if extra_hosts:
@@ -43,7 +42,11 @@ if extra_hosts:
         if host.strip()
     ]
 
+# Ajouter automatiquement le domaine fourni par Render
+render_hostname = os.environ.get("RENDER_EXTERNAL_HOSTNAME")
 
+if render_hostname:
+    ALLOWED_HOSTS.append(render_hostname)
 # ============================================================
 # APPLICATIONS
 # ============================================================
@@ -256,6 +259,7 @@ if not DEBUG:
     SESSION_COOKIE_SECURE = True
 
     CSRF_COOKIE_SECURE = True
+    SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
     SECURE_SSL_REDIRECT = True
 
