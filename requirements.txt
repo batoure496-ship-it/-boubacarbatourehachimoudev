@@ -8,3 +8,4 @@ django-filter==25.2
 djangorestframework==3.17.1
 djangorestframework-simplejwt==5.5.1
 PyJWT==2.13.0
+gunicorn==26.2.0
