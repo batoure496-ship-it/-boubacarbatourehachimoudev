@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Boubacar Batouré Hachimou{% endblock %}</title>
+
+    <meta name="description"
+          content="Boubacar Batouré Hachimou - Créateur de solutions numériques au Niger. Sites web, applications mobiles et logiciels de gestion.">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    {% block content %}
+    {% endblock %}
+
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

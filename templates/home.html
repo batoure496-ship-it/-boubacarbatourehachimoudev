@@ -1,0 +1,1124 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+Accueil | Boubacar Batouré Hachimou
+{% endblock %}
+
+{% block content %}
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="container navbar-inner">
+        <a href="/" class="logo">
+            <div class="logo-icon">💡</div>
+
+            <div class="logo-text">
+                <span class="logo-name">Boubacar Batouré</span>
+                <span class="logo-domain">Hachimou.dev</span>
+            </div>
+        </a>
+
+        <nav class="nav-links">
+            <a href="/" class="active">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#services">Services</a>
+            <a href="#realisations">Réalisations</a>
+            <a href="#">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Ouvrir le menu">
+    ☰
+</button>
+
+        <a href="#contact" class="nav-button">
+            💬 Discuter de mon projet
+        </a>
+    </div>
+</header>
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero">
+
+    <div class="container hero-inner">
+
+        <div class="hero-content">
+
+            <h1 class="hero-title">
+                CRÉATEUR DE
+                <br>
+                <span>SOLUTIONS</span> NUMÉRIQUES
+            </h1>
+
+            <p class="hero-subtitle">
+                - Sites web &nbsp; • &nbsp;
+                Applications mobiles &nbsp; • &nbsp;
+                Logiciels de gestion
+            </p>
+
+            <p class="hero-description">
+                J'accompagne les entreprises, commerces, écoles et
+                entrepreneurs dans leur transformation digitale avec
+                des solutions modernes, performantes et adaptées à
+                leurs besoins.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#" class="btn btn-primary">
+                    💬 Discuter de mon projet
+                </a>
+
+                <a href="#realisations" class="btn btn-outline">
+    Voir mes réalisations →
+</a>
+
+            </div>
+
+            <p class="hero-location">
+                <span>📍</span>
+                Basé à Dosso, Niger
+            </p>
+
+        </div>
+
+
+       <div class="hero-image">
+    <div class="profile-photo">
+        <img src="{% static 'images/profil.png' %}" 
+             alt="Boubacar Batouré Hachimou">
+    </div>
+</div>
+    </div>
+
+</section>
+
+
+<!-- =========================
+     STATISTIQUES
+========================= -->
+
+<section class="stats">
+
+    <div class="container stats-inner">
+
+        <div class="stat">
+
+            <div class="stat-icon">🚀</div>
+
+            <div>
+                <span class="stat-number">5+</span>
+                <span class="stat-label">
+                    Projets réalisés
+                </span>
+            </div>
+
+        </div>
+
+
+        <div class="stat">
+
+            <div class="stat-icon">👥</div>
+
+            <div>
+                <span class="stat-number">2+</span>
+                <span class="stat-label">
+                    Clients satisfaits
+                </span>
+            </div>
+
+        </div>
+
+
+        <div class="stat">
+
+            <div class="stat-icon">&lt;/&gt;</div>
+
+            <div>
+                <span class="stat-number">3+</span>
+                <span class="stat-label">
+                    Années d'expérience
+                </span>
+            </div>
+
+        </div>
+
+
+        <div class="stat">
+
+            <div class="stat-icon">📍</div>
+
+            <div>
+                <span class="stat-number">Dosso</span>
+                <span class="stat-label">
+                    Niger
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- À PROPOS -->
+<!-- À PROPOS -->
+<section id="apropos" class="section about-section">
+    <div class="container about-grid">
+
+        <div class="about-visual">
+            <div class="about-photo">
+    <img src="{% static 'images/profil.png' %}"
+         alt="Boubacar Batouré Hachimou">
+</div>
+
+            <div class="about-badge">
+                <strong>3+</strong>
+                <span>ans d'expérience</span>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <p class="section-label">À PROPOS DE MOI</p>
+
+            <h2 class="section-title">
+                Je transforme vos idées en solutions numériques
+            </h2>
+
+            <p>
+                Je suis <strong>Boubacar Batouré Hachimou</strong>,
+                développeur logiciel basé au Niger. Je conçois et
+                développe des solutions numériques modernes pour
+                accompagner les entreprises, écoles, commerces et
+                entrepreneurs dans leur transformation digitale.
+            </p>
+
+            <p>
+                Passionné par les nouvelles technologies, je travaille
+                principalement sur le développement web, les logiciels
+                de gestion et les applications adaptées aux besoins
+                réels des utilisateurs.
+            </p>
+
+            <div class="about-infos">
+                <div>
+                    <span>📍</span>
+                    <strong>Localisation</strong>
+                    <small>Dosso, Niger</small>
+                </div>
+
+                <div>
+                    <span>💻</span>
+                    <strong>Spécialité</strong>
+                    <small>Génie logiciel</small>
+                </div>
+
+                <div>
+                    <span>🚀</span>
+                    <strong>Objectif</strong>
+                    <small>Créer des solutions utiles</small>
+                </div>
+
+                <div>
+                    <span>⚡</span>
+                    <strong>Technologies</strong>
+                    <small>Python, Django, Web</small>
+                </div>
+            </div>
+
+            <a href="https://wa.me/22788718613?text=Bonjour%20Boubacar%2C%20je%20souhaite%20discuter%20d%27un%20projet."
+   class="btn btn-primary"
+   target="_blank"
+   rel="noopener">
+    💬 Discuter de mon projet
+</a>
+        </div>
+
+    </div>
+</section>
+<!-- =========================
+     SERVICES
+========================= -->
+
+<!-- SERVICES -->
+<section id="services" class="section services-section">
+
+    <div class="container">
+
+        <p class="section-label">
+            MES SERVICES
+        </p>
+
+        <h2 class="section-title">
+            Des solutions digitales pour chaque besoin
+        </h2>
+
+
+        <div class="services-grid">
+
+            <!-- Service 1 -->
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🌐
+                </div>
+
+                <h3>Sites web</h3>
+
+                <p>
+                    Sites web professionnels, responsives et optimisés
+                    pour booster votre visibilité.
+                </p>
+
+                <a href="#">
+                    En savoir plus →
+                </a>
+
+            </div>
+
+
+            <!-- Service 2 -->
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🖥️
+                </div>
+
+                <h3>Logiciels de gestion</h3>
+
+                <p>
+                    Des logiciels sur mesure pour gérer efficacement
+                    votre activité et vos données.
+                </p>
+
+                <a href="#">
+                    En savoir plus →
+                </a>
+
+            </div>
+
+
+            <!-- Service 3 -->
+            <div class="service-card">
+
+                <div class="service-icon">
+                    📱
+                </div>
+
+                <h3>Applications mobiles</h3>
+
+                <p>
+                    Applications Android et iOS performantes
+                    et intuitives pour vos utilisateurs.
+                </p>
+
+                <a href="#">
+                    En savoir plus →
+                </a>
+
+            </div>
+
+
+            <!-- Service 4 -->
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🎓
+                </div>
+
+                <h3>Solutions pour écoles</h3>
+
+                <p>
+                    Gestion des élèves, notes, bulletins,
+                    paiements et communication école-parents.
+                </p>
+
+                <a href="#">
+                    En savoir plus →
+                </a>
+
+            </div>
+
+
+            <!-- Service 5 -->
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ⚙️
+                </div>
+
+                <h3>Automatisation</h3>
+
+                <p>
+                    Automatisation des tâches répétitives
+                    pour gagner du temps et améliorer la productivité.
+                </p>
+
+                <a href="#">
+                    En savoir plus →
+                </a>
+
+            </div>
+
+
+            <!-- Service 6 -->
+            <div class="service-card">
+
+                <div class="service-icon">
+                    📈
+                </div>
+
+                <h3>Transformation digitale</h3>
+
+                <p>
+                    Accompagnement pour la digitalisation
+                    et la croissance de votre entreprise.
+                </p>
+
+                <a href="#">
+                    En savoir plus →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     SECTEURS D'ACTIVITÉ
+========================= -->
+
+<!-- SECTEURS -->
+<section id="secteurs" class="section sectors-section">
+    <div class="container">
+
+        <p class="section-label">
+            POUR QUI ?
+        </p>
+
+        <h2 class="section-title">
+            Des solutions adaptées à votre secteur
+        </h2>
+
+        <div class="sectors-grid">
+
+            <div class="sector-card">
+                <div class="sector-image">🏪</div>
+                <div class="sector-content">
+                    <h3>Commerce</h3>
+                    <p>Gérez vos produits, stocks, ventes et clients facilement.</p>
+                    <a href="#">Découvrir →</a>
+                </div>
+            </div>
+
+            <div class="sector-card">
+                <div class="sector-image">🏥</div>
+                <div class="sector-content">
+                    <h3>Clinique</h3>
+                    <p>Gérez vos patients, rendez-vous et dossiers médicaux.</p>
+                    <a href="#">Découvrir →</a>
+                </div>
+            </div>
+
+            <div class="sector-card">
+                <div class="sector-image">🍽️</div>
+                <div class="sector-content">
+                    <h3>Restaurant</h3>
+                    <p>Menu digital, commandes et réservations simplifiées.</p>
+                    <a href="#">Découvrir →</a>
+                </div>
+            </div>
+
+            <div class="sector-card">
+                <div class="sector-image">🎓</div>
+                <div class="sector-content">
+                    <h3>École</h3>
+                    <p>Gestion des élèves, notes et administration scolaire.</p>
+                    <a href="#">Découvrir →</a>
+                </div>
+            </div>
+
+            <div class="sector-card">
+                <div class="sector-image">🔧</div>
+                <div class="sector-content">
+                    <h3>Atelier</h3>
+                    <p>Suivi des interventions, clients et facturations.</p>
+                    <a href="#">Découvrir →</a>
+                </div>
+            </div>
+
+            <div class="sector-card">
+                <div class="sector-image">🏢</div>
+                <div class="sector-content">
+                    <h3>Entreprise</h3>
+                    <p>Des outils digitaux pour optimiser votre organisation.</p>
+                    <a href="#">Découvrir →</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     RÉALISATIONS
+========================= -->
+
+<section id="realisations" class="section projects-section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <div>
+                <p class="section-label">
+                    MES RÉALISATIONS
+                </p>
+
+                <h2 class="section-title">
+                    Quelques projets récents
+                </h2>
+            </div>
+
+            <a href="#" class="btn btn-outline">
+                Voir tous les projets →
+            </a>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+            <!-- PROJET 1 -->
+            <article class="project-card">
+
+                <div class="project-image project-school">
+
+                    <div class="project-placeholder">
+
+                        <span>🎓</span>
+
+                        <strong>Système scolaire</strong>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        Application web
+                    </span>
+
+                    <h3>
+                        Système de gestion scolaire
+                    </h3>
+
+                    <p>
+                        Une plateforme complète pour gérer les élèves,
+                        enseignants, notes, bulletins et paiements.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>SQLite</span>
+                    </div>
+
+                    <a href="#">
+                        Voir le projet →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJET 2 -->
+            <article class="project-card">
+
+                <div class="project-image project-wallet">
+
+                    <div class="project-placeholder">
+
+                        <span>💳</span>
+
+                        <strong>Portefeuille numérique</strong>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        Application mobile
+                    </span>
+
+                    <h3>
+                        Portefeuille numérique
+                    </h3>
+
+                    <p>
+                        Une application mobile conçue pour faciliter
+                        la gestion d'un portefeuille numérique,
+                        les transactions et le suivi des opérations
+                        financières depuis un smartphone.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Mobile</span>
+                    </div>
+
+                    <a href="https://wa.me/22788718613" target="_blank" rel="noopener">
+    💬 WhatsApp
+</a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJET 3 -->
+            <article class="project-card">
+
+                <div class="project-image project-business">
+
+                    <div class="project-placeholder">
+
+                        <span>💼</span>
+
+                        <strong>Site professionnel</strong>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        Site vitrine
+                    </span>
+
+                    <h3>
+                        Site web professionnel
+                    </h3>
+
+                    <p>
+                        Un site moderne permettant de présenter
+                        les services et activités d'une entreprise.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Responsive</span>
+                    </div>
+
+                    <a href="#">
+                        Voir le projet →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     PROCESSUS DE TRAVAIL
+========================= -->
+
+<!-- PROCESSUS -->
+<section id="processus" class="section process-section">
+    <div class="container">
+
+        <div class="process-intro">
+
+            <p class="section-label">
+                MON PROCESSUS
+            </p>
+
+            <h2 class="section-title">
+                Une méthode simple et efficace
+            </h2>
+
+            <p class="section-description">
+                De votre idée à la réalisation, je vous accompagne
+                à chaque étape de votre projet digital.
+            </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+            <!-- Étape 1 -->
+            <div class="process-card">
+
+                <div class="process-number">
+                    01
+                </div>
+
+                <div class="process-icon">
+                    💬
+                </div>
+
+                <h3>
+                    Discussion
+                </h3>
+
+                <p>
+                    Nous échangeons sur votre idée,
+                    vos besoins et vos objectifs.
+                </p>
+
+            </div>
+
+
+            <!-- Étape 2 -->
+            <div class="process-card">
+
+                <div class="process-number">
+                    02
+                </div>
+
+                <div class="process-icon">
+                    🔍
+                </div>
+
+                <h3>
+                    Analyse
+                </h3>
+
+                <p>
+                    J'analyse votre projet afin de proposer
+                    la meilleure solution adaptée.
+                </p>
+
+            </div>
+
+
+            <!-- Étape 3 -->
+            <div class="process-card">
+
+                <div class="process-number">
+                    03
+                </div>
+
+                <div class="process-icon">
+                    🎨
+                </div>
+
+                <h3>
+                    Conception
+                </h3>
+
+                <p>
+                    Création de l'interface et de
+                    l'architecture de votre solution.
+                </p>
+
+            </div>
+
+
+            <!-- Étape 4 -->
+            <div class="process-card">
+
+                <div class="process-number">
+                    04
+                </div>
+
+                <div class="process-icon">
+                    💻
+                </div>
+
+                <h3>
+                    Développement
+                </h3>
+
+                <p>
+                    Développement de votre solution
+                    avec des technologies modernes.
+                </p>
+
+            </div>
+
+
+            <!-- Étape 5 -->
+            <div class="process-card">
+
+                <div class="process-number">
+                    05
+                </div>
+
+                <div class="process-icon">
+                    🚀
+                </div>
+
+                <h3>
+                    Livraison
+                </h3>
+
+                <p>
+                    Tests, mise en ligne et accompagnement
+                    après la livraison du projet.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     EXPÉRIENCE PROFESSIONNELLE
+========================= -->
+
+<!-- EXPÉRIENCE -->
+<section id="experience" class="section experience-section">
+    <div class="container">
+
+        <div class="experience-intro">
+
+            <p class="section-label">
+                MON EXPÉRIENCE
+            </p>
+
+            <h2 class="section-title">
+                Une expérience au cœur de la technologie
+            </h2>
+
+            <p class="section-description">
+                Une expérience professionnelle qui m'a permis de mettre
+                en pratique mes connaissances en développement logiciel
+                et de participer à plusieurs initiatives technologiques
+                au Niger.
+            </p>
+
+        </div>
+
+
+        <div class="experience-card">
+
+            <!-- Partie gauche -->
+            <div class="experience-main">
+
+                <div class="experience-logo">
+                    💻
+                </div>
+
+                <div class="experience-content">
+
+                    <span class="experience-date">
+                        2026
+                    </span>
+
+                    <h3>
+                        Stage en développement logiciel
+                    </h3>
+
+                    <h4>
+                        E-E SOLUTIONS SARL
+                    </h4>
+
+                    <p class="experience-location">
+                        📍 Niamey, Niger
+                    </p>
+
+                    <p>
+                        Dans le cadre de ma formation en
+                        <strong>Génie Logiciel à l'Université de Dosso (UDO)</strong>,
+                        j'ai effectué un stage au sein de E-E SOLUTIONS SARL.
+                    </p>
+
+                    <p>
+                        Cette expérience m'a permis de développer mes
+                        compétences techniques et professionnelles à travers
+                        différentes activités liées au développement logiciel
+                        et à l'écosystème technologique nigérien.
+                    </p>
+
+                    <a href="/media/attestations/attestation-stage-boubacar.pdf"
+                           class="btn btn-primary"
+                               target="_blank">
+                             📄 Voir mon attestation
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Partie droite -->
+            <div class="experience-details">
+
+                <h4>
+                    Activités & expériences
+                </h4>
+
+                <ul>
+
+                    <li>
+                        <span>💻</span>
+                        Analyse et conception d'applications informatiques
+                    </li>
+
+                    <li>
+                        <span>🌐</span>
+                        Forum de la Gouvernance Internet
+                    </li>
+
+                    <li>
+                        <span>🚀</span>
+                        Forum Tech (SYMTECH)
+                    </li>
+
+                    <li>
+                        <span>🤖</span>
+                        Lancement de la Compétition Nationale de Robotique
+                    </li>
+
+                    <li>
+                        <span>🐍</span>
+                        Formation Python
+                    </li>
+
+                    <li>
+                        <span>🎓</span>
+                        Lancement de la formation de 1 500 Nigériens en Python
+                    </li>
+
+                </ul>
+
+
+                <div class="experience-skills">
+
+                    <span>Sérieux</span>
+                    <span>Professionnalisme</span>
+                    <span>Esprit d'équipe</span>
+                    <span>Apprentissage</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+    <div class="container">
+
+        <div class="contact-intro">
+            <p class="section-label">CONTACT</p>
+
+            <h2 class="section-title">
+                Parlons de votre projet
+            </h2>
+
+            <p class="section-description">
+                Vous avez une idée, un projet ou besoin d'une solution
+                numérique pour votre activité ? Contactez-moi et
+                discutons ensemble de vos besoins.
+            </p>
+        </div>
+        {% if messages %}
+    <div class="form-messages">
+        {% for message in messages %}
+            <div class="success-message">
+                {{ message }}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+        <div class="contact-grid">
+
+            <!-- INFORMATIONS -->
+            <div class="contact-info">
+
+                <h3>Travaillons ensemble</h3>
+
+                <p>
+                    Je suis disponible pour échanger sur vos projets
+                    de sites web, applications mobiles et logiciels
+                    de gestion.
+                </p>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <strong>Localisation</strong>
+                        <span>Dosso, Niger</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <strong>Email</strong>
+                        <span>contact@hachimou.dev</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+    <div class="contact-icon">💬</div>
+    <div>
+        <strong>WhatsApp</strong>
+        <a href="https://wa.me/22788718613"
+           target="_blank"
+           rel="noopener">
+            <span>88 71 86 13 — Me contacter</span>
+        </a>
+    </div>
+</div>
+
+            </div>
+
+
+            <!-- FORMULAIRE -->
+            <div class="contact-form-card">
+
+                <form method="POST" action="{% url 'contact' %}">
+    {% csrf_token %}
+
+    <input
+        type="text"
+        name="name"
+        placeholder="Nom complet"
+        required
+    >
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Adresse email"
+        required
+    >
+
+    <input
+        type="text"
+        name="subject"
+        placeholder="Sujet"
+        required
+    >
+
+    <textarea
+        name="message"
+        placeholder="Votre message"
+        rows="6"
+        required
+    ></textarea>
+
+    <button type="submit">
+        Envoyer mon message →
+    </button>
+
+</form>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- =========================================================
+     FOOTER — BOUBACAR DEV
+========================================================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- Présentation -->
+        <div class="footer-brand">
+            <a href="/" class="footer-logo">
+                <span>💡</span> Boubacar Batouré
+                <strong>Hachimou.dev</strong>
+            </a>
+
+            <p>
+                Créateur de solutions numériques modernes pour les
+                entreprises, écoles, commerces et entrepreneurs.
+            </p>
+
+            <div class="footer-location">
+                📍 Dosso, Niger
+            </div>
+        </div>
+
+
+        <!-- Navigation -->
+        <div class="footer-column">
+            <h3>Navigation</h3>
+
+            <a href="/">Accueil</a>
+            <a href="/#apropos">À propos</a>
+            <a href="/#services">Services</a>
+            <a href="/#realisations">Réalisations</a>
+            <a href="/#contact">Contact</a>
+        </div>
+
+
+        <!-- Services -->
+        <div class="footer-column">
+            <h3>Services</h3>
+
+            <a href="/#services">Sites web</a>
+            <a href="/#services">Logiciels de gestion</a>
+            <a href="/#services">Applications mobiles</a>
+            <a href="/#services">Solutions pour écoles</a>
+            <a href="/#services">Automatisation</a>
+        </div>
+
+
+        <!-- Contact -->
+        <div class="footer-column">
+            <h3>Me contacter</h3>
+
+            <a href="mailto:contact@hachimou.dev">
+                📧 contact@hachimou.dev
+            </a>
+
+            <a href="/#contact">
+                💬 WhatsApp
+            </a>
+
+            <a href="/#contact">
+                🚀 Discuter de mon projet
+            </a>
+        </div>
+
+    </div>
+
+
+    <!-- Ligne inférieure -->
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Boubacar Batouré Hachimou. Tous droits réservés.
+        </p>
+
+        <p>
+            Conçu avec ❤️ à Dosso, Niger
+        </p>
+
+    </div>
+
+</footer>
+
+
+{% endblock %}
